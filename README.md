@@ -8,7 +8,7 @@
 
 Как запустить
 1. Склонируйте репозиторий:
-git clone https://github.com/ВАШ_ЛОГИН/barbershop-laravel.git
+git clone https://github.com/Markus0896/barbershop-laravel.git
 
 2. Установите зависимости:
 
