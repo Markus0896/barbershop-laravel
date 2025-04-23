@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif; margin: 20px; }
+h1 { color: #333; }
+
+/* Кастомизация навигации */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Галерея */
+.gallery img {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* Карточки услуг */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+/* Форма записи */
+.btn-dark {
+    background: #333;
+    border: none;
+    padding: 12px;
+}
+/* Баннер */
+.banner-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-content {
+    z-index: 1;
+    position: relative;
+}
